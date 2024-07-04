@@ -1,0 +1,67 @@
+* {
+ font-family: 'Lucida Sans';
+ margin: 0;
+ color: rgb(60, 57, 57);
+}
+.headerr{
+    padding: 20px 10px;
+background-color: #fff;
+box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.name{
+    font-size: 24px;
+    text-decoration: none;
+}
+.email{
+text-decoration: none;
+
+}
+.flex-box{
+   padding-left: 20px;
+}
+.text-box{
+    display: flex;
+    flex-direction: column;
+}
+.Goals{
+    background-color: #f0eded;
+    margin: 25px 0;
+    padding: 20px;
+}
+.gol{
+    padding-bottom: 5px;
+}
+ul{
+    line-height: 35px;
+}
+.links{
+    padding: 25px 25px;
+}
+.funlink{
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+.linkss{
+    display: flex;
+    justify-content: space-between;
+}
+.timebox{
+    display: flex;
+    flex-direction: column;
+}
+.current{
+    margin: 30px 20px;
+}
+.currentt{
+    font-size: 24px;
+    padding-bottom: 15px;
+}
+.time{
+    padding-bottom: 10px;
+}
+@media screen and (min-width: 750px){
+    .timebox{
+        flex-direction: row;
+        
+    }
+}
